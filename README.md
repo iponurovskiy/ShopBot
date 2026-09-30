@@ -3,6 +3,8 @@
 A deliberately under-protected support assistant, built as a common target for comparing
 LLM red-teaming tools (garak, promptfoo, PyRIT).
 
+**Do not deploy this.**
+**For demonstrative purposes only.**
 
 ## The four rules under test
 
