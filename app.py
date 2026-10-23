@@ -18,7 +18,7 @@ MODEL = os.getenv("MODEL", "llama3.1:8b")
 BASE_URL = os.getenv("BASE_URL", "http://localhost:11434/v1")
 API_KEY = os.getenv("API_KEY", "ollama")  # ignored by Ollama, required by the SDK
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.7"))
-MAX_TOOL_ROUNDS = 2
+MAX_TOOL_ROUNDS = 3
 
 client = OpenAI(base_url=BASE_URL, api_key=API_KEY, timeout=120.0)
 DOCS_DIR = Path(__file__).parent / "docs"
